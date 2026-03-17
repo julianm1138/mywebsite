@@ -49,7 +49,6 @@ main {
 }
 
 html {
-  background-image: url("./images/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -62,7 +61,8 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .list-menu {
@@ -149,7 +149,9 @@ html {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease;
 }
 
 h1 {
@@ -195,7 +197,9 @@ h1:hover::before {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .julian-avatar {
@@ -371,7 +375,8 @@ a {
 #portfolio-three,
 #portfolio-four,
 #portfolio-five,
-#portfolio-six {
+#portfolio-six,
+#portfolio-seven {
   width: 200px;
   height: 190px;
   object-fit: cover;
@@ -385,7 +390,8 @@ a {
 #portfolio-three:hover,
 #portfolio-four:hover,
 #portfolio-five:hover,
-#portfolio-six:hover {
+#portfolio-six:hover,
+#portfolio-seven:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   color: #7d7d7d;
   opacity: 0.8;
@@ -394,7 +400,10 @@ a {
 #portfolio-one:active,
 #portfolio-two:active,
 #portfolio-three:active,
-#portfolio-four:active {
+#portfolio-four:active,
+#portfolio-five:active,
+#portfolio-six:active,
+#portfolio-seven:active {
   color: white;
 }
 
